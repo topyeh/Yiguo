@@ -1,0 +1,275 @@
+@charset "UTF-8";
+.steps {
+  float: right;
+  padding-top: 20px;
+  margin-right: 40px; }
+  .steps li {
+    position: relative;
+    float: left; }
+    .steps li i {
+      width: 165px;
+      height: 6px;
+      background: #fff;
+      border: 1px solid #e5e5e5;
+      border-width: 1px 0;
+      display: block;
+      float: left;
+      margin-top: 15px;
+      margin-right: 0;
+      overflow: hidden; }
+    .steps li b {
+      background: url(./img/order-step.png) no-repeat;
+      width: 36px;
+      height: 36px;
+      display: block;
+      float: left; }
+    .steps li span {
+      position: absolute;
+      top: -20px;
+      right: 0;
+      display: inline-block;
+      width: 160px;
+      text-align: center;
+      right: -62px;
+      color: #333; }
+  .steps .on .b1 {
+    background-position: 0 -44px; }
+  .steps .on span {
+    color: #008842; }
+  .steps .b2 {
+    background-position: -42px 0; }
+  .steps .b3 {
+    background-position: -84px 0; }
+
+.cart {
+  margin-top: 20px;
+  margin-bottom: 65px; }
+  .cart .cart-none {
+    border: 1px solid #e3e6e0;
+    line-height: 30px;
+    padding: 70px 0;
+    background: #fff; }
+    .cart .cart-none a {
+      color: #008842; }
+    .cart .cart-none p {
+      height: 280px;
+      font-size: 14px;
+      text-align: center;
+      background: url(./img/none-bg.jpg) no-repeat center bottom; }
+      .cart .cart-none p b {
+        font-size: 14px;
+        font-weight: normal; }
+        .cart .cart-none p b a {
+          margin-left: 15px; }
+  .cart h2 {
+    font-weight: normal;
+    height: 38px;
+    line-height: 38px;
+    background-color: #fff;
+    background-position: 0 0;
+    border-bottom: 2px solid #05984d;
+    text-indent: -9999em;
+    position: relative;
+    background: url(../css/img/bg_cart.png) no-repeat; }
+  .cart .city {
+    position: absolute;
+    left: 230px;
+    top: 4px;
+    text-indent: 0; }
+  .cart .city-sz {
+    float: left;
+    height: 16px;
+    line-height: 16px;
+    margin: 7px 0;
+    cursor: pointer; }
+    .cart .city-sz i {
+      display: inline-block;
+      background-position: -80px -40px;
+      width: 12px;
+      height: 16px;
+      margin-right: 8px; }
+  .cart .city-tit {
+    float: left; }
+  .cart .city-con {
+    z-index: 1;
+    display: none;
+    position: absolute;
+    top: 28px;
+    left: 0;
+    width: 482px;
+    border: 2px solid #007f4d;
+    background: #fff; }
+  .cart .city-name {
+    z-index: 100;
+    position: relative;
+    display: block;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 5px;
+    padding: 0 5px 5px 5px;
+    cursor: pointer; }
+
+.on-shopping {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #008842;
+  text-indent: 0;
+  text-decoration: underline;
+  margin-right: 22px; }
+
+.cart-alert, .order-alert {
+  border: 1px solid #e3e6e0;
+  border-top: 0;
+  padding: 10px 20px;
+  background-color: #fff; }
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ebebeb;
+  margin-bottom: 10px; }
+
+.cart-table th {
+  height: 40px;
+  background-color: #f1f1f1;
+  font: 12px/40px Simsun;
+  color: #262626;
+  text-align: center;
+  padding: 0 10px; }
+
+.cart-table th.cart-t-check, .cart-table td.cart-t-check {
+  text-align: left;
+  padding-left: 20px; }
+
+.cart-table th.cart-t-check {
+  width: 120px; }
+
+.cart-t-price {
+  width: 100px;
+  color: #262626;
+  font-size: 14px;
+  line-height: 1em; }
+
+.cart-t-num {
+  width: 110px;
+  color: #262626;
+  font: 12px/1em Simsun; }
+
+.cart-t-total {
+  width: 110px;
+  color: #e93005;
+  font-size: 14px;
+  line-height: 1em; }
+
+.cart-t-spec {
+  width: 110px;
+  color: #262626;
+  font: 12px/1em Simsun; }
+
+.cart-t-opera {
+  width: 110px;
+  color: #262626;
+  font: 12px/2em Simsun; }
+
+.cart-table td {
+  border-top: 1px solid #ebebeb;
+  padding: 10px;
+  text-align: center; }
+
+.cart-t-check {
+  width: 20px; }
+
+.cart-t-img {
+  width: 80px;
+  position: relative; }
+
+.cart-table td.cart-t-info {
+  text-align: left; }
+
+.cart-slct-box {
+  border: 1px solid #ebebeb; }
+
+.quantity-form {
+  position: relative;
+  overflow: hidden;
+  width: 90px;
+  height: 30px; }
+
+.cart h2, .order h2, i, .decrement, .increment {
+  background: url(../css/img/bg_cart.png) no-repeat; }
+
+.decrement {
+  float: left;
+  background-position: 0 -40px; }
+
+.increment {
+  float: right;
+  background-position: -20px -40px; }
+
+.decrement, .increment {
+  margin: 0;
+  width: 18px;
+  height: 24px; }
+
+.itxt {
+  position: absolute;
+  left: 22px;
+  top: 0;
+  border: 1px solid #cacbcb;
+  width: 42px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  padding: 1px;
+  margin: 0;
+  font-size: 12px;
+  font-family: verdana;
+  color: #333; }
+
+.cart-footer {
+  background-color: #f7f7f7;
+  font-size: 12px;
+  line-height: 1em;
+  color: #666;
+  margin-top: 20px;
+  padding: 10px; }
+  .cart-footer .container {
+    width: 100%; }
+  .cart-footer label {
+    margin-left: 20px;
+    vertical-align: middle; }
+  .cart-footer input {
+    margin-right: 5px; }
+  .cart-footer a {
+    font: 12px/40px Simsun;
+    margin-left: 20px; }
+    .cart-footer a i {
+      display: inline-block;
+      width: 14px;
+      height: 16px;
+      background-position: -100px -40px;
+      margin-right: 5px;
+      vertical-align: middle; }
+  .cart-footer span {
+    margin-right: 20px; }
+  .cart-footer .ub em {
+    color: #249c61;
+    font: bold 14px/1em Simsun; }
+  .cart-footer em {
+    color: #ff5317;
+    font-weight: bold;
+    margin: 0 5px;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 1em; }
+  .cart-footer .btn {
+    font: bold 18px/1em "微软雅黑";
+    background-color: #ff5317;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-left: 0;
+    cursor: pointer; }

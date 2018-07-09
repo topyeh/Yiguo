@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/reg.css">
+    <script src="../lib/jquery-3.3.1.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/reg.js"></script>
+</head>
+<body>
+    <!-- 头部 -->
+    <div class="header clearfix">
+        <div class="container">
+            <div class="logo">
+                <a href="../index.html"></a>
+                <span class="h_tit">注册</span>
+            </div>
+        </div>
+    </div>
+    <!-- 注册 -->
+    <form action="javascript:" method="post">
+        <div class="reg">
+            <div class="container">
+                <div class="table">
+                    <div class="tab_fr fr">                    
+                        我已经注册，现在就 <a href="./login.html">登录</a>
+                    </div>
+                    <div class="tab_cont clearfix">
+                        <div class="cont_fl fl">
+                            <p class="clearfix" style="line-height:38px;">
+                                <span class="field_name fl">图形验证码</span>
+                                <input type="text" name="reg_code" id="reg_code" placeholder="图形验证码" class="input input-yzm fl">
+                                <a href="jacascript:" id="changeImg" class="changeImg">
+                                    <canvas class="show-captcha" id="canvas" width="150" height="40"></canvas>
+                                </a>
+                                <a href="jacascript:" id="changeCode" class="gray fl" style="line-height: 38px;">换一张</a>
+                                <span></span>
+                            </p>
+                            <p>
+                                <span class="field_name">手机号</span>
+                                <input type="text" class="input input-phone" id="phone_num" name="phone_num" placeholder="请输入您的手机号">
+                                <span></span>
+                            </p>
+                            <p>
+                                <span class="field_name">手机验证码</span>
+                                <input type="text" class="input input-yzm" id="phone_code" name="phone_code" placeholder="手机验证码">
+                                <a href="javascript:" class="btn_yzm" id="phone_SendCode">获取验证码</a>
+                                <span></span>
+                            </p>
+                            <p>
+                                <span class="field_name">设置密码</span>
+                                <input type="password" class="input input-key" id="phone_pwd" name="phone_pwd" placeholder="6-20位字母、符合或数字">
+                                <span></span>
+                            </p>
+                            <p>
+                                <span class="field_name">确认密码</span>
+                                <input type="password" class="input input-key" id="phone_repwd" name="phone_repwd" placeholder="再次输入密码">
+                                <span></span>
+                            </p>
+                            <p>
+                                <span class="field_name">邀请码</span>
+                                <input type="text" class="input input-key" id="phone_atCode" name="phone_atCode" placeholder="邀请码" onfocus="value='x23445Uns'">
+                                <span></span>
+                            </p>
+                            <p>
+                                <span class="field_name"></span>
+                                <label>
+                                    <input type="checkbox" id="tab1chk" checked="checked">我已阅读并同意
+                                    <a href="javascript:" class="green btn-protocol">《易果服务协议》</a>
+                                    <span></span>
+                                </label>
+                            </p>
+                            <p>
+                                <span class="field_name"></span>
+                                <a href="javascript:" class="btnReg" id="btnReg">立即注册</a>
+                            </p>
+                        </div>
+                        <div class="cont_fr fr">
+                            <img src="../img/register.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- 底部简介 -->
+    <div class="footer-service">
+            <div class="container clearfix">
+                <ul>
+                    <li class="s1">
+                        <b>全球精选</b>
+                        <span>一站式生鲜购物方案</span>
+                    </li>
+                    <li class="s2">
+                        <b>多仓直发</b>
+                        <span>特有次日达配送服务</span>
+                    </li>
+                    <li class="s3">
+                        <b>源头直采</b>
+                        <span>精选正宗品质好食材</span>
+                    </li>
+                    <li class="s4">
+                        <b>天天底价</b>
+                        <span>会员专属优惠购不停</span>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    <!-- 页尾 -->
+    <div class="footer">
+        <div class="container">
+            <dl class="col1">
+                <dt>新手指南</dt>
+                <dd>
+                    <p><a href="./reg.html">账户注册</a></p>
+                    <p><a href="javascript:">购物流程</a></p>
+                    <p><a href="javascript:">订购方式</a></p>
+                    <p><a href="javascript:">悠币说明</a></p>
+                    <p><a href="javascript:">会员等级</a></p>
+                </dd>
+            </dl>
+            <dl class="col2">
+                <dt>付款方式</dt>
+                <dd>
+                    <p><a href="javascript:">支付方式</a>/<a href="javascript:">发票说明</a></p>
+                    <p><a href="javascript:">充值说明</a><a href="javascript:">/储值卡说明</a></p>
+                    <p><a href="javascript:">优惠代码/礼品卡说明</a></p>
+                    <p><a href="javascript:">卡券购买章程</a></p>
+                </dd>
+            </dl>
+            <dl class="col3">
+                <dt>配送方式</dt>
+                <dd>
+                    <p><a href="javascript:">配送运费</a></p>
+                    <p><a href="javascript:">配送范围</a></p>
+                    <p><a href="javascript:">配送时间</a></p>
+                </dd>
+            </dl>
+            <dl class="col4">
+                <dt>售后服务</dt>
+                <dd>
+                    <p><a href="javascript:">退换货政策</a></p>
+                    <p><a href="javascript:">退换货流程</a></p>
+                    <p><a href="javascript:">常见问题</a></p>
+                    <p><a href="javascript:">极速退款</a></p><p>
+                    </p><p><a href="javascript:">投诉与建议</a></p>
+                </dd>
+            </dl>
+            <dl class="col5">
+                <dt>关于我们</dt>
+                <dd>
+                    <p><a href="javascript:">公司介绍</a></p>
+                    <p><a href="javascript:">联系我们</a></p>
+                    <p><a href="javascript:">业务合作</a></p>
+                    <p><a href="javascript:">诚信举报</a></p>
+                    <p><a href="javascript:">人才招聘</a></p>
+                    <p><a href="javascript:">友情链接</a></p>
+                </dd>
+            </dl>
+            <div class="service">
+                <span>客服热线 400-000-7788 企业采购或团购，请转2号键咨询</span>
+                <span>周一至周日 9:00-21:00</span>
+            </div>
+            <div class="copyright">
+                <p>所有图片均受著作权保护，未经许可任何单位与个人不得使用、复制、转载、摘编，违者必究法律责任。</p>
+                <p> <a href="javascript:">沪ICP备09008015号 </a>  Copyright © 2005-2018 <a href="javascript:">上海易果电子商务有限公司</a>版权所有</p>
+                <p class="authentication">
+                    <a href="javascript:">
+                        <img src="../img/weiquan.png">
+                    </a>
+                    <a href="javascript:">
+                        <img src="../img/dajiaping.png" height="47">
+                    </a>
+                    <a href="javascript:">
+                        <img src="../img/footer_copy.gif" width="47px" height="47px">
+                    </a>
+                    <a href="javascript:" style="display: inline-block; text-decoration: none; height: 20px; line-height: 20px;">
+                        <img src="../img/ghs.png" style="float: left;">
+                        <span style="float: left; height: 20px; line-height: 20px; margin: 0px 0px 0px 5px; color: #939393;">沪公网安备 31010502000002号</span
+                    ></a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

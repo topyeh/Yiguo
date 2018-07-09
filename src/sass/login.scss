@@ -1,0 +1,134 @@
+$fontM: "Microsoft YaHei";
+.green { color: #65b42c; }
+.gray {color: #878787;}
+.login .input{
+    border: 1px solid #c1c1c1;
+    background-color: #fff;
+    height: 38px;
+    vertical-align: middle;
+    padding-left: 14px;
+    width: 290px;
+    font: 14px/38px $fontM;
+}
+.input-phone-icon, .input-key-icon{
+    position: absolute;
+    left: 1px;
+    top: 1px !important;
+    width: 40px;
+    height: 38px;
+    background: url(./img/bg_input.png) no-repeat;
+}
+i{
+    display: inline-block;
+    width: 88px;
+    height: 20px;
+    background: url(./img/bg_login.png) no-repeat;
+    margin-right: 20px;
+}
+
+
+.header{
+    border: none;
+    background: #e0e0e0;
+    .container{
+        padding: 15px 0 5px 0;
+    }
+    .logo{
+        position: relative;
+        float: left;
+        a{
+            width: 195px;
+            height: 50px;
+            background: url(./img/logo.png) no-repeat;
+        }
+        .h_tit{
+            color: #008842;
+            left: 240px;
+            font: 28px/1 $fontM;
+            position: absolute;
+            top: 6px;
+            white-space: nowrap;
+        }
+    }
+}
+.login{
+    margin: 0;
+    border: none;
+    background: #fff;
+    padding-top: 30px;
+    p{
+        margin-bottom: 20px;
+        font: 12px Arial, "SimSun";
+        color: #878787;
+        position: relative;
+        overflow: hidden;
+    }
+    .input{
+        padding-left: 50px;
+        width: 254px;
+        background: url(./img/bg_input.png) no-repeat;
+    }
+    .log_fl{
+        margin-top: 20px;
+    }
+    .log_fr{
+        padding-right: 105px;
+        .log_main{
+            width: 308px;
+            margin-top: 20px;
+            padding: 30px 20px 20px;
+            background: #fff;
+            border: 1px solid #e3e6e0;
+            p{
+                width: 100%;
+                strong{
+                    color: #262626;
+                    font: 18px/1 $fontM;
+                }
+                span{
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+            }
+            .green{
+                text-decoration: underline;
+            }
+            .btnLog{
+                width: 306px;
+                height: 50px;
+                display: inline-block;
+                text-align: center;
+                color: #fff;
+                background: #008842;
+                font: 18px/50px $fontM;
+            }
+            .qq i {
+                background-position: -60px -200px;
+            }
+            .sina i {
+                background-position: -160px -200px;
+            }
+            .ay i {
+                background-position: -260px -200px;
+                width: 57px;
+                margin-right: 0;
+            }
+        }
+        .input-phone-icon {
+            background-position: 0 -120px;
+        }
+        .input-key-icon {
+            background-position: 0 -180px;
+        }
+        .input-key {
+            background-position: 0 -180px;
+        }
+        input[type=checkbox] {
+            margin-right: 9px;
+            height: 14px;
+            width: 14px;
+            vertical-align: -1px;
+        }
+    }
+}

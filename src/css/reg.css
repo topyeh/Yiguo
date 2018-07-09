@@ -1,0 +1,85 @@
+.gray {
+  color: #666666; }
+
+.input-phone, .input-mail, .input-key {
+  background: url(./img/bg_input.png) no-repeat; }
+
+.reg {
+  padding-top: 54px; }
+  .reg p {
+    margin-bottom: 29px;
+    font: 14px Arial, "Microsoft YaHei"; }
+  .reg input {
+    width: 290px;
+    height: 38px;
+    padding-left: 14px;
+    margin-right: 20px;
+    border: 1px solid #c1c1c1;
+    background-color: #fff;
+    vertical-align: middle;
+    font: 14px/38px "Microsoft YaHei"; }
+  .reg .table {
+    position: relative;
+    width: 100%;
+    margin: 10px auto 0; }
+    .reg .table .tab_fr {
+      position: absolute;
+      top: -27px;
+      right: 0;
+      font: 14px/1 "Microsoft YaHei"; }
+      .reg .table .tab_fr a {
+        margin-right: 36px;
+        color: #ef760a;
+        text-decoration: underline; }
+    .reg .table .tab_cont {
+      border: 1px solid #c4dfb1;
+      background-color: #fff;
+      padding: 40px 0 50px; }
+    .reg .table .cont_fl .changeImg {
+      float: left;
+      width: 100px;
+      height: 38px;
+      border: 1px solid #e2e8e5; }
+      .reg .table .cont_fl .changeImg .show-captcha {
+        width: 100px;
+        height: 38px; }
+    .reg .table .cont_fl .field_name {
+      display: inline-block;
+      width: 220px;
+      text-align: right;
+      padding-right: 20px; }
+    .reg .table .cont_fl .btn_yzm {
+      display: inline-block;
+      width: 121px;
+      height: 38px;
+      text-align: center;
+      line-height: 38px;
+      background-color: #f7f7f7;
+      border: 1px solid #c1c1c1;
+      color: #008842;
+      margin-right: 20px; }
+    .reg .table .cont_fl .input-yzm {
+      width: 147px; }
+    .reg .table .cont_fl .input-phone {
+      background-position: 276px -30px; }
+    .reg .table .cont_fl .input-key {
+      background-position: 276px -70px; }
+    .reg .table .cont_fl input[type=checkbox] {
+      margin-right: 9px;
+      height: 14px;
+      width: 14px;
+      vertical-align: -1px; }
+    .reg .table .cont_fl label a {
+      color: #008842; }
+    .reg .table .cont_fl .btnReg {
+      width: 306px;
+      height: 50px;
+      text-align: center;
+      display: inline-block;
+      color: #fff;
+      background: #008842;
+      font: 18px/50px "Microsoft YaHei"; }
+    .reg .table .cont_fr {
+      position: absolute;
+      right: 130px;
+      top: 110px; }

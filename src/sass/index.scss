@@ -1,0 +1,318 @@
+$fontM: "Microsoft YaHei";
+// 轮播图
+.banner-slider{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    top: -38px;
+    .active .banner-text{
+        opacity: 1;
+        transform: scale(1);
+       
+    }
+    .active .banner-main{
+        transform: scale(1);
+        
+    }
+
+    > span{
+        position: absolute;
+        left: 0;top: 50%;
+        width: 50px; height: 100px;
+        font-size: 55px;
+        line-height: 100px;
+        text-align: center;
+        color: #fff;
+        background-color: rgba(0,0,0,.3);
+        transform: translate(0,-50%); 
+        cursor: pointer;
+    }
+    .btnNext{
+        left: auto;
+        right: 0;
+    }
+    .page{
+        position: absolute;
+        left: 0; right: 0;
+        bottom: 10px;
+        text-align: center;
+    }
+    .page span{
+        display: inline-block;
+        margin: 0 5px;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        line-height: 20px;
+        border-radius: 50%;
+        color:#b5b2a8; 
+        background: #b5b2a8; 
+        font-size: 10px;
+    }
+    .page span.active{
+        color:#5aaa16; 
+        background: #5aaa16;
+    }
+
+    .b-slider{
+        width: 100% !important;
+        margin: 0 auto;
+        position: absolute;left:0;top:0;overflow:hidden;
+        li{
+            overflow: hidden;
+            float: left;
+            width: 100%;
+            height: 500px;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            a{
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        img{display: block;}
+    }
+    .slider-wrap{
+        position: relative;
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .banner-text{
+        position: absolute;
+        top: 0;
+        transform: scale(1.1);
+        right: 0;
+        z-index: 2;
+        transition: all 1.5s linear;
+        opacity: 0.3;
+    }
+    .banner-main{
+        width: 100%;
+        height: 500px;
+        margin: 0 auto;
+        transition: transform 1.5s linear;
+        transform: scale(1.2);
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+    }
+    .b-btn{ 
+        zoom:1; 
+        z-index:4; 
+    }
+    .b-btn a{ 
+        display: none; 
+        width: 40px; 
+        height: 100px; 
+        background: url(./img/slider-btn.png) no-repeat; 
+        position: absolute; 
+        top: 50%; 
+        margin-top: -50px;
+    }
+    .b-btn .prev { 
+        left: 0; 
+        background-position:top left;
+    }
+    .b-btn .next { 
+        right: 0; 
+        background-position:top right;
+    }
+    .b-dot { 
+        position: absolute; 
+        bottom:12px; 
+        left:43%; 
+        height: 12px; 
+        zoom:1; 
+        z-index:3;
+    }
+    .b-dot li { 
+        overflow:hidden; 
+        float: left;  
+        width: 12px; 
+        height: 12px; 
+        line-height: 10px; 
+        color:#b5b2a8; 
+        background: #b5b2a8; 
+        margin:0 5px; 
+        border-radius:50%; 
+        cursor:pointer; 
+        text-indent:100000000px;
+    }
+    .b-dot li.on { 
+        color:#5aaa16; 
+        background: #5aaa16; 
+    }
+}
+// 活动、广告位
+.ad-item{
+    margin-top: -25px;
+    li:hover{
+        box-shadow:0px 0px 7px #444;
+    }
+    ul{
+        zoom: 1;
+        margin-left: -12px;
+        margin-top: 10px;
+        padding-top: 7px;
+        li{
+            position: relative;
+            overflow: hidden;
+            float: left;
+            display: inline;
+            width: 290px;
+            height: 290px;
+            margin: 0 0 10px 13px;
+            p{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                width: 270px;
+                height: 57px;
+                line-height: 25px;
+                margin: 10px;
+                color: #575757;
+                text-align: center;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                background: rgba(255, 255, 255, 0.9);
+                b{
+                    display: block;
+                    font: bold 22px $fontM;
+                }
+            }
+        }
+    }
+}
+// 商品楼层
+.floor{
+    clear: both;
+    position: relative;
+    margin-top: 18px;
+    // 楼层标题
+    .floor-title{
+        position: relative;
+        height: 32px;
+        line-height: 32px;
+        margin-bottom: 5px;
+        i{
+            display: inline-block;
+            width: 31px;
+            height: 18px;
+            margin-right: 10px;
+            padding: 10px 7px 4px 7px;
+            color: #fff;
+            font: bold 14px $fontM;
+            vertical-align: text-bottom;
+            background: url('../css/img/floor_tit_icon.png') no-repeat left top;
+        }
+        .f1, .f2{
+            float: left;
+            height: 32px;
+            font: bold 18px $fontM;
+        }
+        .f1{
+            a{
+                color: #b84f00;
+            }
+            i{
+                background-position: -368px 0;
+            }
+        }
+        .f2{
+            a{
+                color: #3ca3dc;
+            }
+            i{
+                background-position: -531px 0;
+                width: 41px;
+            }
+        }
+        .keyword{
+            float: right;
+            a{color: #4e4e4e;}
+            a:after{
+                content: "|";
+                padding: 0 7px;
+            }
+            a.last:after{
+                content: ""; 
+                padding:0;
+            }
+        }
+    }
+    // 楼层内容
+    .floor-con{
+        .floor-side{
+            float: left;
+            width: 275px;
+            height: 462px;
+            a{
+                display: block;
+            } 
+        }
+        .floor-main{
+            width: 923px;
+            height: 461px;
+            border: 1px solid #d5d5d5;
+            position: relative;
+            float: left;
+            background: #fff;
+            a:hover {
+                display: block;
+                transform: translateX(5px);
+            }
+            .col1, .col2, .col3{
+                float: left;
+                overflow: hidden;
+            }
+            .col1{
+                width: 234px;
+                height: 383px;
+                border-right: 1px solid #d5d5d5;
+                border-bottom: 1px solid #d5d5d5;
+            }
+            .col2{
+                width: 442px;
+                .wide{
+                    width: 441px;
+                }
+                li{
+                    float: left;
+                    overflow: hidden;
+                    height: 191px;
+                    border-right: 1px solid #d5d5d5;
+                    border-bottom: 1px solid #d5d5d5;
+                    background: #fff;
+                }
+            }
+            .f2-main .narrow{
+                width: 220px;
+            }
+            .col3{
+                width: 246px;
+                height: 461px;
+            }
+            .logo-list{
+                overflow: hidden;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 654px;
+                height: 55px;
+                padding: 11px;
+                border-right: 1px solid #d5d5d5;
+                background: #fff;
+                a {
+                    float: left;
+                    margin: 0 14px;
+                    display: block;
+
+                }
+            }
+        }
+    }
+}
+

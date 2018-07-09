@@ -1,0 +1,113 @@
+.green {
+  color: #65b42c; }
+
+.gray {
+  color: #878787; }
+
+.login .input {
+  border: 1px solid #c1c1c1;
+  background-color: #fff;
+  height: 38px;
+  vertical-align: middle;
+  padding-left: 14px;
+  width: 290px;
+  font: 14px/38px "Microsoft YaHei"; }
+
+.input-phone-icon, .input-key-icon {
+  position: absolute;
+  left: 1px;
+  top: 1px !important;
+  width: 40px;
+  height: 38px;
+  background: url(./img/bg_input.png) no-repeat; }
+
+i {
+  display: inline-block;
+  width: 88px;
+  height: 20px;
+  background: url(./img/bg_login.png) no-repeat;
+  margin-right: 20px; }
+
+.header {
+  border: none;
+  background: #e0e0e0; }
+  .header .container {
+    padding: 15px 0 5px 0; }
+  .header .logo {
+    position: relative;
+    float: left; }
+    .header .logo a {
+      width: 195px;
+      height: 50px;
+      background: url(./img/logo.png) no-repeat; }
+    .header .logo .h_tit {
+      color: #008842;
+      left: 240px;
+      font: 28px/1 "Microsoft YaHei";
+      position: absolute;
+      top: 6px;
+      white-space: nowrap; }
+
+.login {
+  margin: 0;
+  border: none;
+  background: #fff;
+  padding-top: 30px; }
+  .login p {
+    margin-bottom: 20px;
+    font: 12px Arial, "SimSun";
+    color: #878787;
+    position: relative;
+    overflow: hidden; }
+  .login .input {
+    padding-left: 50px;
+    width: 254px;
+    background: url(./img/bg_input.png) no-repeat; }
+  .login .log_fl {
+    margin-top: 20px; }
+  .login .log_fr {
+    padding-right: 105px; }
+    .login .log_fr .log_main {
+      width: 308px;
+      margin-top: 20px;
+      padding: 30px 20px 20px;
+      background: #fff;
+      border: 1px solid #e3e6e0; }
+      .login .log_fr .log_main p {
+        width: 100%; }
+        .login .log_fr .log_main p strong {
+          color: #262626;
+          font: 18px/1 "Microsoft YaHei"; }
+        .login .log_fr .log_main p span {
+          position: absolute;
+          right: 0;
+          top: 0; }
+      .login .log_fr .log_main .green {
+        text-decoration: underline; }
+      .login .log_fr .log_main .btnLog {
+        width: 306px;
+        height: 50px;
+        display: inline-block;
+        text-align: center;
+        color: #fff;
+        background: #008842;
+        font: 18px/50px "Microsoft YaHei"; }
+      .login .log_fr .log_main .qq i {
+        background-position: -60px -200px; }
+      .login .log_fr .log_main .sina i {
+        background-position: -160px -200px; }
+      .login .log_fr .log_main .ay i {
+        background-position: -260px -200px;
+        width: 57px;
+        margin-right: 0; }
+    .login .log_fr .input-phone-icon {
+      background-position: 0 -120px; }
+    .login .log_fr .input-key-icon {
+      background-position: 0 -180px; }
+    .login .log_fr .input-key {
+      background-position: 0 -180px; }
+    .login .log_fr input[type=checkbox] {
+      margin-right: 9px;
+      height: 14px;
+      width: 14px;
+      vertical-align: -1px; }

@@ -1,0 +1,107 @@
+$fontM: "Microsoft YaHei";
+.gray {color: #666666;}
+.input-phone, .input-mail, .input-key {
+    background: url(./img/bg_input.png) no-repeat;
+}
+
+.reg{
+    padding-top: 54px;
+    p{
+        margin-bottom: 29px;
+        font: 14px Arial, $fontM;
+    }
+    input{
+        width: 290px;
+        height: 38px;
+        padding-left: 14px;
+        margin-right: 20px;
+        border: 1px solid #c1c1c1;
+        background-color: #fff;
+        vertical-align: middle;
+        font: 14px/38px $fontM;
+    }
+    .table{
+        position: relative;
+        width: 100%;
+        margin: 10px auto 0;
+        .tab_fr{
+            position: absolute;
+            top: -27px;
+            right: 0;
+            font: 14px/1 $fontM;
+            a{
+                margin-right: 36px;
+                color: #ef760a;
+                text-decoration: underline;
+            }
+        }
+        .tab_cont{
+            border: 1px solid #c4dfb1;
+            background-color: #fff;
+            padding: 40px 0 50px;
+        }
+        .cont_fl{
+            .changeImg{
+                float: left;
+                width: 100px;
+                height: 38px;
+                border: 1px solid #e2e8e5;
+                .show-captcha{
+                    width: 100px;
+                    height: 38px;
+                }
+            }
+            .field_name{
+                display: inline-block;
+                width: 220px;
+                text-align: right;
+                padding-right: 20px;
+            }
+            .btn_yzm {
+                display: inline-block;
+                width: 121px;
+                height: 38px;
+                text-align: center;
+                line-height: 38px;
+                background-color: #f7f7f7;
+                border: 1px solid #c1c1c1;
+                color: #008842;
+                margin-right: 20px;
+            }
+            .input-yzm{
+                width: 147px;
+            }
+            .input-phone {
+                background-position: 276px -30px;
+            }
+            .input-key {
+                background-position: 276px -70px;
+            }
+            input[type=checkbox] {
+                margin-right: 9px;
+                height: 14px;
+                width: 14px;
+                vertical-align: -1px;
+            }
+            label{
+                a{
+                    color: #008842;
+                }
+            }
+            .btnReg{
+                width: 306px;
+                height: 50px;
+                text-align: center;
+                display: inline-block;
+                color: #fff;
+                background: #008842;
+                font: 18px/50px $fontM;
+            }
+        }
+        .cont_fr{
+            position: absolute;
+            right: 130px;
+            top: 110px;
+        }
+    }
+}

@@ -1,0 +1,259 @@
+.banner-slider {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 500px;
+  top: -38px; }
+  .banner-slider .active .banner-text {
+    opacity: 1;
+    transform: scale(1); }
+  .banner-slider .active .banner-main {
+    transform: scale(1); }
+  .banner-slider > span {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 50px;
+    height: 100px;
+    font-size: 55px;
+    line-height: 100px;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+    transform: translate(0, -50%);
+    cursor: pointer; }
+  .banner-slider .btnNext {
+    left: auto;
+    right: 0; }
+  .banner-slider .page {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    text-align: center; }
+  .banner-slider .page span {
+    display: inline-block;
+    margin: 0 5px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    color: #b5b2a8;
+    background: #b5b2a8;
+    font-size: 10px; }
+  .banner-slider .page span.active {
+    color: #5aaa16;
+    background: #5aaa16; }
+  .banner-slider .b-slider {
+    width: 100% !important;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden; }
+    .banner-slider .b-slider li {
+      overflow: hidden;
+      float: left;
+      width: 100%;
+      height: 500px;
+      background-position: center !important;
+      background-repeat: no-repeat !important; }
+      .banner-slider .b-slider li a {
+        display: block;
+        width: 100%;
+        height: 100%; }
+    .banner-slider .b-slider img {
+      display: block; }
+  .banner-slider .slider-wrap {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto; }
+  .banner-slider .banner-text {
+    position: absolute;
+    top: 0;
+    transform: scale(1.1);
+    right: 0;
+    z-index: 2;
+    transition: all 1.5s linear;
+    opacity: 0.3; }
+  .banner-slider .banner-main {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    transition: transform 1.5s linear;
+    transform: scale(1.2);
+    background-position: center !important;
+    background-repeat: no-repeat !important; }
+  .banner-slider .b-btn {
+    zoom: 1;
+    z-index: 4; }
+  .banner-slider .b-btn a {
+    display: none;
+    width: 40px;
+    height: 100px;
+    background: url(./img/slider-btn.png) no-repeat;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px; }
+  .banner-slider .b-btn .prev {
+    left: 0;
+    background-position: top left; }
+  .banner-slider .b-btn .next {
+    right: 0;
+    background-position: top right; }
+  .banner-slider .b-dot {
+    position: absolute;
+    bottom: 12px;
+    left: 43%;
+    height: 12px;
+    zoom: 1;
+    z-index: 3; }
+  .banner-slider .b-dot li {
+    overflow: hidden;
+    float: left;
+    width: 12px;
+    height: 12px;
+    line-height: 10px;
+    color: #b5b2a8;
+    background: #b5b2a8;
+    margin: 0 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    text-indent: 100000000px; }
+  .banner-slider .b-dot li.on {
+    color: #5aaa16;
+    background: #5aaa16; }
+
+.ad-item {
+  margin-top: -25px; }
+  .ad-item li:hover {
+    box-shadow: 0px 0px 7px #444; }
+  .ad-item ul {
+    zoom: 1;
+    margin-left: -12px;
+    margin-top: 10px;
+    padding-top: 7px; }
+    .ad-item ul li {
+      position: relative;
+      overflow: hidden;
+      float: left;
+      display: inline;
+      width: 290px;
+      height: 290px;
+      margin: 0 0 10px 13px; }
+      .ad-item ul li p {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 270px;
+        height: 57px;
+        line-height: 25px;
+        margin: 10px;
+        color: #575757;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        background: rgba(255, 255, 255, 0.9); }
+        .ad-item ul li p b {
+          display: block;
+          font: bold 22px "Microsoft YaHei"; }
+
+.floor {
+  clear: both;
+  position: relative;
+  margin-top: 18px; }
+  .floor .floor-title {
+    position: relative;
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 5px; }
+    .floor .floor-title i {
+      display: inline-block;
+      width: 31px;
+      height: 18px;
+      margin-right: 10px;
+      padding: 10px 7px 4px 7px;
+      color: #fff;
+      font: bold 14px "Microsoft YaHei";
+      vertical-align: text-bottom;
+      background: url("../css/img/floor_tit_icon.png") no-repeat left top; }
+    .floor .floor-title .f1, .floor .floor-title .f2 {
+      float: left;
+      height: 32px;
+      font: bold 18px "Microsoft YaHei"; }
+    .floor .floor-title .f1 a {
+      color: #b84f00; }
+    .floor .floor-title .f1 i {
+      background-position: -368px 0; }
+    .floor .floor-title .f2 a {
+      color: #3ca3dc; }
+    .floor .floor-title .f2 i {
+      background-position: -531px 0;
+      width: 41px; }
+    .floor .floor-title .keyword {
+      float: right; }
+      .floor .floor-title .keyword a {
+        color: #4e4e4e; }
+      .floor .floor-title .keyword a:after {
+        content: "|";
+        padding: 0 7px; }
+      .floor .floor-title .keyword a.last:after {
+        content: "";
+        padding: 0; }
+  .floor .floor-con .floor-side {
+    float: left;
+    width: 275px;
+    height: 462px; }
+    .floor .floor-con .floor-side a {
+      display: block; }
+  .floor .floor-con .floor-main {
+    width: 923px;
+    height: 461px;
+    border: 1px solid #d5d5d5;
+    position: relative;
+    float: left;
+    background: #fff; }
+    .floor .floor-con .floor-main a:hover {
+      display: block;
+      transform: translateX(5px); }
+    .floor .floor-con .floor-main .col1, .floor .floor-con .floor-main .col2, .floor .floor-con .floor-main .col3 {
+      float: left;
+      overflow: hidden; }
+    .floor .floor-con .floor-main .col1 {
+      width: 234px;
+      height: 383px;
+      border-right: 1px solid #d5d5d5;
+      border-bottom: 1px solid #d5d5d5; }
+    .floor .floor-con .floor-main .col2 {
+      width: 442px; }
+      .floor .floor-con .floor-main .col2 .wide {
+        width: 441px; }
+      .floor .floor-con .floor-main .col2 li {
+        float: left;
+        overflow: hidden;
+        height: 191px;
+        border-right: 1px solid #d5d5d5;
+        border-bottom: 1px solid #d5d5d5;
+        background: #fff; }
+    .floor .floor-con .floor-main .f2-main .narrow {
+      width: 220px; }
+    .floor .floor-con .floor-main .col3 {
+      width: 246px;
+      height: 461px; }
+    .floor .floor-con .floor-main .logo-list {
+      overflow: hidden;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 654px;
+      height: 55px;
+      padding: 11px;
+      border-right: 1px solid #d5d5d5;
+      background: #fff; }
+      .floor .floor-con .floor-main .logo-list a {
+        float: left;
+        margin: 0 14px;
+        display: block; }

@@ -1,0 +1,119 @@
+.page_ad .big {
+  width: 1200px;
+  height: 300px;
+  margin-bottom: 10px; }
+
+.page_ad a {
+  display: block;
+  float: left; }
+
+.page_ad a:hover {
+  box-shadow: 0px 0px 7px #444; }
+
+.page_ad .mr {
+  margin-right: 10px; }
+
+.page_ad .medium {
+  width: 405px;
+  height: 180px; }
+
+.page_ad .samll {
+  width: 180px;
+  height: 180px; }
+
+.filter {
+  padding: 5px 10px;
+  margin: 20px 0;
+  background: #eaeaea; }
+  .filter .filter_sort .on {
+    background: #eee; }
+  .filter .filter_sort a {
+    display: block;
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    margin-left: -1px;
+    padding: 5px 10px;
+    border: 1px solid #c7c7c7;
+    background: #fff; }
+    .filter .filter_sort a i {
+      width: 10px;
+      height: 16px;
+      margin-left: 3px;
+      background: url("./img/filter_icon.png") no-repeat 0 0; }
+  .filter .filter_sort .price i {
+    background-position: -20px 0; }
+
+.goods_list ul {
+  overflow: hidden;
+  zoom: 1;
+  margin-left: -13px; }
+
+.goods_list .product_item {
+  float: left;
+  position: relative;
+  width: 290px;
+  margin: 15px 0 0 13px;
+  background: #fff; }
+  .goods_list .product_item .pro_img {
+    position: relative;
+    width: 290px;
+    height: 290px; }
+  .goods_list .product_item .pro_info {
+    padding: 10px;
+    height: 48px; }
+  .goods_list .product_item .pro_name {
+    height: 16px;
+    margin-bottom: 10px;
+    line-height: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+  .goods_list .product_item .pro_price {
+    height: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+    .goods_list .product_item .pro_price .price {
+      font-size: 18px;
+      color: #e7380d;
+      vertical-align: middle; }
+  .goods_list .product_item .pro_buy {
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 68px;
+    width: 270px;
+    padding: 10px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9); }
+    .goods_list .product_item .pro_buy span {
+      display: block;
+      width: 270px;
+      line-height: 16px;
+      margin-bottom: 10px; }
+  .goods_list .product_item .btn_buy {
+    display: block;
+    width: 180px;
+    height: 25px;
+    margin: 0 auto;
+    line-height: 25px;
+    color: #fff;
+    background: #008742;
+    border-radius: 4px; }
+
+.goods_list .pag {
+  float: right; }
+  .goods_list .pag a {
+    width: 20px;
+    font-size: 15px;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    margin-left: 3px;
+    margin-top: 12px;
+    text-align: center;
+    border: 1px solid rgba(68, 68, 68, 0.3);
+    background: rgba(204, 204, 204, 0.1); }
+  .goods_list .pag .active {
+    background: #3cec91; }
